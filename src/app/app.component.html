@@ -1,4 +1,8 @@
-<div class="container">
-  <p class="alert alert-success">{{name}}</p>
+
+<app-header></app-header>
+<div class="card">
+  <img src="{{ product.imageUrl }}"/>
+  <h2>{{ product.productName }}</h2>
 </div>
+<app-product-list></app-product-list>
 <router-outlet></router-outlet>

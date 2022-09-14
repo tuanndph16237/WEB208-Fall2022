@@ -1,0 +1,8 @@
+<h1>{{ title }}</h1>
+<button (click)="setTitle()">Click show log</button>
+<button (click)="changeStatus()">Change Status</button>
+<div *ngIf="status">Halloo</div>
+
+<div *ngFor="let item of products">
+  {{ item.name }}
+</div>
